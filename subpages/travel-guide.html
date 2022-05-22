@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SolidSNorth</title>
+        <link rel="icon" href="../icon/SN.png">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/travel-guide.css"> 
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/bootstrap-slider.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a href="../index.html" class="title">
+                <img src="../icon/SN.png">
+                <p1>
+                    Solid
+                </p1>
+
+                <p2>
+                    S
+                </p2>
+
+                <p3>
+                    North
+                </p3>
+            </a>
+
+            <div class="navbtns-container">
+                <span></span>
+
+                <a href="../index.html" class="navbtns" id="first">
+                    Home
+                </a>
+
+                <a href="./about.html" class="navbtns" id="second">
+                    About
+                </a>
+
+                <a href="./v-tour.html" class="navbtns" id="third">
+                    Virtual Tour
+                </a>
+
+                <a href="./travel-guide.html"" class="navbtns" id="fourth" style="color:#FC600A;">
+                    Travel Guide
+                </a>
+                
+                <a href="./opportunities.html"" class="navbtns" id="fifth">
+                    Opportunities
+                </a>
+                
+                <a href="./book.html" class="navbtns" id="sixth">
+                    Booking
+                </a>
+
+                <a href="javascript:void(0);" class="icon" onclick="burgerMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="main" id="mainImg">
+            <img src="../gif/Travel Guide.gif">
+        </div>
+
+        <script>
+            function burgerMenu() {
+            var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+
+                var x = document.getElementById("mainImg");
+                if (x.className === "main") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "main";
+                }
+            }
+        </script>
+
+        <div class="one">
+
+            <div class="content">
+                <p class="place">
+                    <p1>
+                        How to Get to
+                    </p1>
+        
+                    <p2>
+                        PAGUDPUD
+                    </p2>
+                </p>
+
+                <hr class="contentRuler">
+
+                <p class="info-title">
+                    From Manila to Pagudpud
+                </p>
+
+                <p class="info-box-indented">
+                    Pagudpud is located North of Laoag City, the provincial capital, and North of Manila. It is 
+                    situated in Ilocos Norte, Region 1, Philippines. It has a land area of 194.90 square kilometers 
+                    or 75.25 square miles that constitute 5.70% total area. Mountains, hills, valleys, and flat 
+                    coastal land characterize the town's topography. This place is divided into 16 barangays:
+                </p>
+
+                <br>
+
+                <p class="info-title">
+                    From Clark to Pagudpud
+                </p>
+
+                <p class="info-box-indented">
+                    Take the shuttle service from Clark Airport to the Dau terminal. Take a bus bound for Laoag, 
+                    then change to a bus bound for Pagudpud. The total travel time is approximately 8 hours, and 
+                    the total bus fare is approximately P700.
+                </p>
+
+                <br>
+
+                <p class="info-title">
+                    From Cebu/Davao to Pagudpud
+                </p>
+
+                <p class="info-box-indented">
+                    Only Philippine Airlines (PAL) and Cebu Pacific fly to Laoag City from Cebu and Davao. 
+                    When you arrive at Laoag airport, take a tricycle to the city center, where you can catch 
+                    a bus to Pagudpud. Travel time is approximately 2 hours, and the bus fare is P75.
+                </p>
+
+                <br>
+            </div>
+        </div>
+
+        <div class="two">
+            <div class="content">
+                <p class="place">
+                    <p1>
+                        Where to Stay in
+                    </p1>
+        
+                    <p2>
+                        PAGUDPUD
+                    </p2>
+                </p>
+
+                <hr class="contentRuler">
+                
+                <div class="slider-container">
+                    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="4"></li>
+                            </ol>
+    
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../img/Palm Grove Saud Holidy Complex/1.png" alt="First slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Palm Grove Saud Holidy Complex/2.png" alt="Second slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Palm Grove Saud Holidy Complex/3.png" alt="Third slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Palm Grove Saud Holidy Complex/4.png" alt="Fourth slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Palm Grove Saud Holidy Complex/5.png" alt="Fifth slide">
+                                </div>
+                            </div>
+    
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+    
+                            <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+    
+                            <script>
+                                $('.carousel').carousel({
+                                    interval: 3500
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="info-box">
+                    The best place to stay in Pagudpud is near Blue Lagoon, where most of the affordable local tours 
+                    and restaurants can be found like Palm Grove Saud Holiday Complex (Contact No: +639178962855) with 
+                    a price of P1,604 for a family room good for 6 adults and 3 kids. 
+                </p>
+
+                <div class="slider-container">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators2" data-slide-to="4"></li>
+                            </ol>
+    
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../img/Buena Vista Beach Resort/1.png" alt="First slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Buena Vista Beach Resort/2.png" alt="Second slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Buena Vista Beach Resort/3.png" alt="Third slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Buena Vista Beach Resort/4.png" alt="Fourth slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Buena Vista Beach Resort/5.png" alt="Fifth slide">
+                                </div>
+                            </div>
+    
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+    
+                            <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+    
+                            <script>
+                                $('.carousel').carousel({
+                                    interval: 3500
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="info-box">
+                    More recommended accommodations in Buena Vista Beach Resort (Contact No: +639077313557) 
+                    for as low as P2,000 good for 2 persons.
+                </p>
+
+                <br>
+            </div>
+        </div>
+
+        <div class="three">
+            <div class="content">
+                <p class="place">
+                    <p1>
+                        What to Do in
+                    </p1>
+        
+                    <p2>
+                        PAGUDPUD
+                    </p2>
+                </p>
+
+                <hr class="contentRuler">
+            
+                <p class="info-box-list">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    Experience a long stretch of bridge that is etched as the gift of the patapat mountain, 
+                    the Patapat Viaduct.
+                </p>
+
+                <p class="info-box-list">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    Pagudpud offers a mountain experience located in Panzzian beach and mountain resort. They also offer 
+                    local delicacies such as sapin-sapin, etc. 
+                </p>
+
+                <p class="info-box-list">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    Ride the wave and enjoy the pristine Blue Lagoon's white sand (Maira-ira Beach) accented with 
+                    beautiful rock formations.
+                </p>
+                
+                <p class="info-box-list">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    Visiting the beaches, the Saud White Beach offers a special package including overnight 
+                    accommodation. You can swim, scuba dive, snorkel, and many more with its wonderful creation. 
+                </p>
+
+                <p class="info-box-list">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    The Kabigan Falls are well worth including on your Pagudpud day trip itinerary. A short hike through 
+                    romantic scenery leads to a waterfall with fantastically refreshing swimming water for all to enjoy.
+                </p>
+                
+                <br>
+            </div>
+        </div>
+
+        <div class="four">
+            <div class="content">
+                <p class="place">
+                    <p1>
+                        Itinerary for
+                    </p1>
+        
+                    <p2>
+                        PAGUDPUD
+                    </p2>
+                </p>
+
+                <hr class="contentRuler">
+                
+                <p class="info-centered">
+                    Travel Day 0
+                </p>
+
+                <p class="info-box">
+                    You can book a ticket from Manila to Laoag International Airport for a less than an hour trip and
+                    ride a bus going to pagudpud. You can also ride a bus at night from Manila to Pagudpud with a half
+                    day trip and arrive in the morning.
+                </p>
+                
+                <p class="info-centered">
+                    Travel Day 1
+                </p>
+
+                <p class="info-box">
+                    Start the adventure with a prayer in St. Jude Thaddeus Parish to pray for a fun and safe journey. 
+                    Stay at the Blue Lagoon resort for the day. You can explore the area and plan for your trips.
+                </p>
+
+                <p class="info-centered">
+                    Travel Day 2
+                </p>
+
+                <p class="info-box">
+                    You can visit popular tourist spots in Pagudpud, like the Saud White Beach, the Kabigan Falls, the 
+                    Patapat Viaduct and many more. Try some delicious delicacies at Panzzian Beach and mountain resort.
+                </p>
+
+
+                <br>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <div class="footSlider">
+                <div class="footSliderTitle">
+                    <p1>
+                        GET TO KNOW
+                    </p1>
+        
+                    <p2>
+                        Pagudpud
+                    </p2>
+                </div>
+
+                <div class="footContainer">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                            </ol>
+    
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="../index.html">
+                                        <img class="d-block w-100" src="../gif/Home.gif" alt="First slide">
+                                    </a>
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <a href="./about.html">
+                                        <img class="d-block w-100" src="../gif/Info.gif" alt="Second slide">
+                                    </a>
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <a href="./v-tour.html">
+                                        <img class="d-block w-100" src="../gif/V-Tour.gif" alt="Third slide">
+                                    </a>
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <a href="./travel-guide.html">
+                                        <img class="d-block w-100" src="../gif/Travel Guide.gif" alt="Fourth slide">
+                                    </a>
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <a href="./opportunities.html">
+                                        <img class="d-block w-100" src="../gif/Opportunities.gif" alt="Fifth slide">
+                                    </a>
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <a href="./book.html">
+                                        <img class="d-block w-100" src="../gif/Booking.gif" alt="Sixth slide">
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+    
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+    
+                            <script>
+                                $('.carousel').carousel({
+                                    interval: 3500
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="footerRuler">
+
+            <div class="footInfo">
+                <div class="footInfoTitle">
+                    <p1>
+                        PAGUDPUD,
+                    </p1>
+        
+                    <p2>
+                        Ilocos Norte
+                    </p2>
+                </div>
+
+                <div class="footContent">
+                    <p>
+                        Pagudpud is known as the "Boracay of the North".Pagudpud's main draw is, of course, 
+                        its beautiful beaches, and, unlike other contenders to Boracay's throne.
+                    </p>
+
+                    <p>
+                        Get to know more about PAGUPUD by exploring this website!
+                    </p>
+
+                    <div class="copyright">
+                        <p>
+                            SolidSNorth,  ©COPYRIGHT @ 2022
+                        </p>
+                    </div>
+
+                    <div class="footerIcons">
+                        <img src="../icon/6.png">
+                        <img src="../icon/7.png">
+                        <img src="../icon/8.png">
+                    </div>
+                </div>
+            </div>
+
+            <hr class="footerRuler">
+
+            <div class="footNav">
+                <a href="../index.html">
+                    Home
+                </a>
+
+                <a href="./about.html"">
+                    About
+                </a>
+
+                <a href="./v-tour.html"">
+                    Virtual Tour
+                </a>
+
+                <a href="./travel-guide.html"">
+                    Travel Guide
+                </a>
+
+                <a href="./opportunities.html"">
+                    Opportunities
+                </a>
+
+                <a href="./book.html">
+                    Booking
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

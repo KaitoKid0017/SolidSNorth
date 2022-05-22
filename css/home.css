@@ -1,0 +1,226 @@
+/* Fonts */ 
+
+@font-face {
+    font-family: ASO;
+    src: url(../fonts/AlfaSlabOne.ttf);
+}
+  
+@font-face {
+    font-family: Telegraf;
+    src: url(../fonts/Telegraf.otf);
+}
+
+@font-face {
+    font-family: Telegraf-L;
+    src: url(../fonts/Telegraf-L.otf);
+}
+
+/* Style */ 
+body{
+    background:#2C2D2F;
+    padding-bottom:0vh;
+}
+
+main {
+    width:100%;
+    padding-top: 11vh;
+    margin-bottom:0;
+}
+
+.main img {
+    height:auto;
+    width:100%;
+}
+
+.one {
+    width: 100%;
+    background: #D9D9D9;
+    margin-top: -1vh;
+    display:inline-block;
+    position: relative;
+}
+
+.content {
+    width: 80%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:2vh 0vh;
+}
+
+.place {
+    text-align: center;
+    font-family: ASO;
+    font-size: 8vh;
+    width: 100%;
+    padding-bottom:1vh;
+}
+
+.place p1 {
+    display: inline-block;
+    color: #FC600A;
+}
+
+.place p2 {
+    display: inline-block;
+    color: #2C2D2F;
+    padding-left: 0.1%;
+}
+
+.contentRuler {
+    width: 95%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 75%;
+    color:#2C2D2F;
+}
+
+.info-box {
+    font-family: Telegraf-L;
+    font-size: 3.5vh;
+    color: #2C2D2F;
+    text-align: justify;
+    line-height: 5vh;
+    text-decoration: none;
+    padding: 2vh 3vh;
+}
+
+/* Custom Content Divisions */
+
+.two {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    background: #F4F4F4; 
+    margin-top: -1vh;
+}
+
+.con-one, .con-two, .con-three, .con-four, .con-five {
+    height: 30vw;
+    width: 18.8%;
+    border-radius: 2%;
+    opacity: 75%;
+    box-shadow: 0px 0px 27px -1px #2C2D2F;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-right:1%;
+    float: left;
+}
+
+.con-one {
+    background: url(../icon/1.png);
+    background-size: 100% 100%;
+    margin-left:1%;
+}
+
+.con-two {
+    background: url(../icon/2.png);
+    background-size: 100% 100%;
+}
+
+.con-three {
+    background: url(../icon/3.png);
+    background-size: 100% 100%;
+}
+
+.con-four {
+    background: url(../icon/4.png);
+    background-size: 100% 100%;
+}
+
+.con-five {
+    background: url(../icon/5.png);
+    background-size: 100% 100%;
+}
+
+.con-one:hover, .con-two:hover, .con-three:hover, .con-four:hover, .con-five:hover {
+    opacity: 100%;
+    background-color: #FC600A;
+    transition: 0.5s ease-in-out;
+}
+
+/* Responsive Bootstrapping */ 
+
+@media screen and (max-width: 800px) {
+    /* Style */
+    
+    .main {
+        padding-top:11vw;
+    }
+
+    .main.responsive {
+        padding-top:0vh;
+    }
+
+    .content {
+        width: 95%;
+        padding:2vw 0vw;
+    }
+    
+    .place {
+        font-size: 5vw;
+        padding-bottom:1vw;
+    }
+
+    .info-box {
+        font-size: 3vw;
+        line-height: 4.5vw;
+        padding: 1vw 3vw;
+    }
+
+    /* Custom Content Divisions */
+
+    .con-one, .con-two, .con-three, .con-four, .con-five {
+        height: 30vw;
+        width: 85%;
+        border-radius: 2%;
+        opacity: 75%;
+        box-shadow: 0px 0px 27px -1px #2C2D2F;
+        background-color: #D9D9D9;
+        display: block;
+        margin-top: 0vh;
+        margin-bottom: 2vw;
+        margin-right:0;
+        margin-left:auto;
+        margin-right: auto;
+        float:none;
+    }
+
+    .con-one {
+        background: url(../icon/1L.png);
+        background-size: 100% 100%;
+        margin-top: 3vw;
+    }
+
+    .con-two {
+        background: url(../icon/2L.png);
+        background-size: 100% 100%;
+    }
+
+    .con-three {
+        background: url(../icon/3L.png);
+        background-size: 100% 100%;
+    }
+    
+    .con-four {
+        background: url(../icon/4L.png);
+        background-size: 100% 100%;
+    }
+
+    .con-five {
+        background: url(../icon/5L.png);
+        background-size: 100% 100%;
+    }
+
+    .con-one:focus, .con-two:focus, .con-three:focus, .con-four:focus, .con-five:focus {
+        opacity: 100%;
+        background-color: #FC600A;
+        transition: 0.5s ease-in-out;
+    }
+    
+}
+
+
+
+

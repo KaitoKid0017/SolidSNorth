@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SolidSNorth</title>
+        <link rel="icon" href="../icon/SN.png">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/opportunities.css"> 
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/bootstrap-slider.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a href="../index.html" class="title">
+                <img src="../icon/SN.png">
+                <p1>
+                    Solid
+                </p1>
+
+                <p2>
+                    S
+                </p2>
+
+                <p3>
+                    North
+                </p3>
+            </a>
+
+            <div class="navbtns-container">
+                <span></span>
+
+                <a href="../index.html" class="navbtns" id="first">
+                    Home
+                </a>
+
+                <a href="./about.html" class="navbtns" id="second">
+                    About
+                </a>
+
+                <a href="./v-tour.html" class="navbtns" id="third">
+                    Virtual Tour
+                </a>
+
+                <a href="./travel-guide.html"" class="navbtns" id="fourth">
+                    Travel Guide
+                </a>
+                
+                <a href="./opportunities.html"" class="navbtns" id="fifth" style="color:#FC600A;">
+                    Opportunities
+                </a>
+                
+                <a href="./book.html" class="navbtns" id="sixth">
+                    Booking
+                </a>
+
+                <a href="javascript:void(0);" class="icon" onclick="burgerMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="main" id="mainImg">
+            <img src="../gif/Opportunities.gif  ">
+        </div>
+
+        <script>
+            function burgerMenu() {
+            var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+
+                var x = document.getElementById("mainImg");
+                if (x.className === "main") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "main";
+                }
+            }
+        </script>
+
+        <div class="one">
+            <div class="content">
+                <p class="place">
+                    <p1>
+                        Alta Vista
+                    </p1>
+        
+                    <p2>
+                        Ilocandia
+                    </p2>
+                </p>
+
+                <hr class="contentRuler">
+                
+                <div class="slider-container">
+                    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="4"></li>
+                            </ol>
+    
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../img/Alta Vista Ilocandia/1.png" alt="First slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Alta Vista Ilocandia/2.png" alt="Second slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Alta Vista Ilocandia/3.png" alt="Third slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Alta Vista Ilocandia/4.png" alt="Fourth slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Alta Vista Ilocandia/5.png" alt="Fifth slide">
+                                </div>
+                            </div>
+    
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+    
+                            <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+    
+                            <script>
+                                $('.carousel').carousel({
+                                    interval: 3500
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="info-box">
+                    Alta Vista Ilocandia is located at Brgy. Caparispisan on a 4-hectare lush rolling mountain 
+                    environment on Pagudpud's northern outskirts, with a 180-degree view of the West Philippine 
+                    Sea and Cordillera Mountain Ranges. The recently opened resort is bordered by pristine reefs, 
+                    a scenic mountain range, and the soothing beauty of the West Philippine Sea's turquoise-blue 
+                    waves, which are interwoven with powder-like white sand beach bays.
+                </p>
+
+                <br>
+            </div>
+        </div>
+
+        <div class="two">
+            <div class="content">
+                <p class="place">
+                    <p1>
+                        Bantay Abot
+                    </p1>
+        
+                    <p2>
+                        Cave
+                    </p2>
+                </p>
+
+                <hr class="contentRuler">
+                
+                <div class="slider-container">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                            </ol>
+    
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../img/Bantay Abot Cave/1.png" alt="First slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Bantay Abot Cave/2.png" alt="Second slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Bantay Abot Cave/3.png" alt="Third slide">
+                                </div>
+                            </div>
+    
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+    
+                            <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+    
+                            <script>
+                                $('.carousel').carousel({
+                                    interval: 3500
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="info-box">
+                    The Bantay Abot caves are found in Balaoi's Sitio Gaoa. It refers to a sea mountain having 
+                    a gap in it. Waves gradually eroded the naturally formed hole until it was destroyed by an 
+                    earthquake in the 1980s. It looks like a gigantic donut! The waves continue to wash through 
+                    the hole, sculpting it. Because the cave's top is covered in lush green foliage, it's also 
+                    known as the underground sea.
+                </p>
+
+                <br>
+            </div>
+        </div>
+
+        <div class="three">
+            <div class="content">
+                <p class="place">
+                    <p1>
+                        Blue
+                    </p1>
+        
+                    <p2>
+                        Lagoon
+                    </p2>
+                </p>
+
+                <hr class="contentRuler">
+                
+                <div class="slider-container">
+                    <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators4" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators4" data-slide-to="4"></li>
+                            </ol>
+    
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../img/Blue Lagoon/1.png" alt="First slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Blue Lagoon/2.png" alt="Second slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Blue Lagoon/3.png" alt="Third slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Blue Lagoon/4.png" alt="Fourth slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Blue Lagoon/5.png" alt="Fifth slide">
+                                </div>
+                            </div>
+    
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+    
+                            <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+    
+                            <script>
+                                $('.carousel').carousel({
+                                    interval: 3500
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="info-box">
+                    Malingay Cove in Sitio Malingay is home to the Blue Lagoon, or Maira-ira as it is often 
+                    called. This hidden bay is located at Mairaira Point and is shaped like a half moon, with 
+                    fine white sands that contrast sharply with the turquoise, or cerulean blue, seas.
+                </p>
+
+                <br>
+            </div>
+        </div>   
+
+        <div class="four">
+            <div class="content">
+                <p class="place">
+                    <p1>
+                        Don Hermanos
+                    </p1>
+        
+                    <p2>
+                        Islands
+                    </p2>
+                </p>
+
+                <hr class="contentRuler">
+                
+                <div class="slider-container">
+                    <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators4" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators4" data-slide-to="3"></li>
+                            </ol>
+    
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../img/Dos Hermanos Island/1.png" alt="First slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Dos Hermanos Island/2.png" alt="Second slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Dos Hermanos Island/3.png" alt="Third slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Dos Hermanos Island/4.png" alt="Fourth slide">
+                                </div>
+                            </div>
+    
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+    
+                            <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+    
+                            <script>
+                                $('.carousel').carousel({
+                                    interval: 3500
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="info-box">
+                    Barangay Balaoi is home to Dos Hermanos Island. The islands are made up of two mountains 
+                    that are nearly identical. According to legend, there were two brothers who were very close 
+                    to each other many years ago. They had made a promise to each other that they would stay 
+                    together till death.
+                </p>
+
+                <br>
+            </div>
+        </div>    
+
+        <div class="five">
+            <div class="content">
+                <p class="place">
+                    <p1>
+                        Hannah's Beach
+                    </p1>
+        
+                    <p2>
+                        Resort
+                    </p2>
+                </p>
+
+                <hr class="contentRuler">
+                
+                <div class="slider-container">
+                    <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators5" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators5" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators5" data-slide-to="4"></li>
+                            </ol>
+    
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../img/Hannahs Beach Resort/1.png" alt="First slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Hannahs Beach Resort/2.png" alt="Second slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Hannahs Beach Resort/3.png" alt="Third slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Hannahs Beach Resort/4.png" alt="Fourth slide">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Hannahs Beach Resort/5.png" alt="Fourth slide">
+                                </div>
+                            </div>
+    
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators5" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+    
+                            <a class="carousel-control-next" href="#carouselExampleIndicators5" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+    
+                            <script>
+                                $('.carousel').carousel({
+                                    interval: 3500
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="info-box">
+                    Hannah's Beach Resort and Convention Center, located in Pagudpud, Ilocos Norte, Philippines, is a 
+                    seven-hectare resort. It is located on the famous Blue Lagoon's shoreline, a stunning stretch of 
+                    immaculate white sand beach that is partially encircled by a range of mountains and cliffs that 
+                    embrace the area, producing a natural sanctuary of beauty and charm.
+                </p>
+
+                <br>
+            </div>
+        </div>    
+
+        <div class="six">
+            <div class="content">
+                <p class="place">
+                    <p1>
+                        Kabigan
+                    </p1>
+        
+                    <p2>
+                        Falls
+                    </p2>
+                </p>
+
+                <hr class="contentRuler">
+                
+                <div class="slider-container">
+                    <div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators5" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators5" data-slide-to="2"></li>
+                            </ol>
+    
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../img/Kabigan Falls/1.png" alt="First slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Kabigan Falls/2.png" alt="Second slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Kabigan Falls/3.png" alt="Third slide">
+                                </div>
+                            </div>
+    
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators6" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+    
+                            <a class="carousel-control-next" href="#carouselExampleIndicators6" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+    
+                            <script>
+                                $('.carousel').carousel({
+                                    interval: 3500
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="info-box">
+                    Kabigan Falls is a must-see for everyone visiting the area. The falls, which are located in 
+                    Barangay Balaoi, are a renowned tourist attraction in Pagudpud (close to Bantay Abot). When 
+                    there is a lot of water running, the cool waters cascade 87 feet into a natural concave basin, 
+                    which is quite impressive. The name comes from the Filipino words "kaibigan" and "magkaibigan."
+                </p>
+
+                <br>
+            </div>
+        </div>
+
+        <div class="seven">
+            <div class="content">
+                <p class="place">
+                    <p1>
+                        KingFisher
+                    </p1>
+        
+                    <p2>
+                        Resort
+                    </p2>
+                </p>
+
+                <hr class="contentRuler">
+                
+                <div class="slider-container">
+                    <div id="carouselExampleIndicators7" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleIndicators7" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators7" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators7" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators7" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators7" data-slide-to="3"></li>
+                            </ol>
+    
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../img/KingFisher Resort/1.png" alt="First slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/KingFisher Resort/2.png" alt="Second slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/KingFisher Resort/3.png" alt="Third slide">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/KingFisher Resort/4.png" alt="Third slide">
+                                </div>
+                            </div>
+    
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators7" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+    
+                            <a class="carousel-control-next" href="#carouselExampleIndicators7" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+    
+                            <script>
+                                $('.carousel').carousel({
+                                    interval: 3500
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="info-box">
+                    Located at Brgy, Caparispisan, If you're searching for a tranquil and pleasant holiday by the 
+                    sea, this is the place to go. They respect your privacy while creating a welcoming and friendly 
+                    attitude among guests. Kiteboarding, windsurfing, stand-up paddleboarding, kayaking, snorkeling, 
+                    swimming, volleyball, and other recreational sports for an active lifestyle are among the 
+                    resort's outdoor activities.
+                </p>
+
+                <br>
+            </div>
+        </div>
+
+        <div class="eight">
+            <div class="content">
+                <p class="place">
+                    <p1>
+                        Mini
+                    </p1>
+        
+                    <p2>
+                        Batanes
+                    </p2>
+                </p>
+
+                <hr class="contentRuler">
+                
+                <div class="slider-container">
+                    <div id="carouselExampleIndicators8" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleIndicators8" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators8" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators8" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators8" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators8" data-slide-to="3"></li>
+                            </ol>
+    
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../img/Mini Batanes/1.png" alt="First slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Mini Batanes/2.png" alt="Second slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Mini Batanes/3.png" alt="Third slide">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Mini Batanes/4.png" alt="Third slide">
+                                </div>
+                            </div>
+    
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators8" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+    
+                            <a class="carousel-control-next" href="#carouselExampleIndicators8" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+    
+                            <script>
+                                $('.carousel').carousel({
+                                    interval: 3500
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="info-box">
+                    This breathtaking vista may be found at Brgy. Ilocos Norte's Caparispisan Pagudpud. 
+                    This is something you should put on your agenda, especially if you're going to Hannah's 
+                    Beach Resort or the beaches around Saud
+                </p>
+
+                <br>
+            </div>
+        </div>
+
+        <div class="nine">
+            <div class="content">
+                <p class="place">
+                    <p1>
+                        North Beach
+                    </p1>
+        
+                    <p2>
+                        Camp
+                    </p2>
+                </p>
+
+                <hr class="contentRuler">
+                
+                <div class="slider-container">
+                    <div id="carouselExampleIndicators9" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleIndicators9" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators9" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators9" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators9" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators9" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators9" data-slide-to="4"></li>
+                            </ol>
+    
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../img/North Beach Camp/1.png" alt="First slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/North Beach Camp/2.png" alt="Second slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/North Beach Camp/3.png" alt="Third slide">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/North Beach Camp/4.png" alt="Third slide">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/North Beach Camp/5.png" alt="Third slide">
+                                </div>
+                            </div>
+    
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators9" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+    
+                            <a class="carousel-control-next" href="#carouselExampleIndicators9" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+    
+                            <script>
+                                $('.carousel').carousel({
+                                    interval: 3500
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="info-box">
+                    North Beach Camp got its start in a simple way. It began as a private seaside retreat. It 
+                    became the ideal location for barbeques and picnics with friends and family thanks to the 
+                    pleasant sea wind and its large area.
+                </p>
+
+                <br>
+            </div>
+        </div>
+
+        <div class="ten">
+            <div class="content">
+                <p class="place">
+                    <p1>
+                        Patapat
+                    </p1>
+        
+                    <p2>
+                        Viaduct
+                    </p2>
+                </p>
+
+                <hr class="contentRuler">
+                
+                <div class="slider-container">
+                    <div id="carouselExampleIndicators10" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleIndicators10" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators10" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators10" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators10" data-slide-to="2"></li>
+                            </ol>
+    
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../img/Patapat Viaduct/1.png" alt="First slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Patapat Viaduct/2.png" alt="Second slide">
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/Patapat Viaduct/3.png" alt="Third slide">
+                                </div>
+                            </div>
+    
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators10" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+    
+                            <a class="carousel-control-next" href="#carouselExampleIndicators10" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+    
+                            <script>
+                                $('.carousel').carousel({
+                                    interval: 3500
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="info-box">
+                    North Beach Camp got its start in a simple way. It began as a private seaside retreat. It 
+                    became the ideal location for barbeques and picnics with friends and family thanks to the 
+                    pleasant sea wind and its large area.
+                </p>
+
+                <br>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footSlider">
+                <div class="footSliderTitle">
+                    <p1>
+                        GET TO KNOW
+                    </p1>
+        
+                    <p2>
+                        Pagudpud
+                    </p2>
+                </div>
+
+                <div class="footContainer">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                            </ol>
+    
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="../index.html">
+                                        <img class="d-block w-100" src="../gif/Home.gif" alt="First slide">
+                                    </a>
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <a href="./about.html">
+                                        <img class="d-block w-100" src="../gif/Info.gif" alt="Second slide">
+                                    </a>
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <a href="./v-tour.html">
+                                        <img class="d-block w-100" src="../gif/V-Tour.gif" alt="Third slide">
+                                    </a>
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <a href="./travel-guide.html">
+                                        <img class="d-block w-100" src="../gif/Travel Guide.gif" alt="Fourth slide">
+                                    </a>
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <a href="./opportunities.html">
+                                        <img class="d-block w-100" src="../gif/Opportunities.gif" alt="Fifth slide">
+                                    </a>
+                                </div>
+        
+                                <div class="carousel-item">
+                                    <a href="./book.html">
+                                        <img class="d-block w-100" src="../gif/Booking.gif" alt="Sixth slide">
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+    
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+    
+                            <script>
+                                $('.carousel').carousel({
+                                    interval: 3500
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="footerRuler">
+
+            <div class="footInfo">
+                <div class="footInfoTitle">
+                    <p1>
+                        PAGUDPUD,
+                    </p1>
+        
+                    <p2>
+                        Ilocos Norte
+                    </p2>
+                </div>
+
+                <div class="footContent">
+                    <p>
+                        Pagudpud is known as the "Boracay of the North".Pagudpud's main draw is, of course, 
+                        its beautiful beaches, and, unlike other contenders to Boracay's throne.
+                    </p>
+
+                    <p>
+                        Get to know more about PAGUPUD by exploring this website!
+                    </p>
+
+                    <div class="copyright">
+                        <p>
+                            SolidSNorth,  ©COPYRIGHT @ 2022
+                        </p>
+                    </div>
+
+                    <div class="footerIcons">
+                        <img src="../icon/6.png">
+                        <img src="../icon/7.png">
+                        <img src="../icon/8.png">
+                    </div>
+                </div>
+            </div>
+
+            <hr class="footerRuler">
+            
+            <div class="footNav">
+                <a href="../index.html">
+                    Home
+                </a>
+
+                <a href="./about.html"">
+                    About
+                </a>
+
+                <a href="./v-tour.html"">
+                    Virtual Tour
+                </a>
+
+                <a href="./travel-guide.html"">
+                    Travel Guide
+                </a>
+
+                <a href="./opportunities.html"">
+                    Opportunities
+                </a>
+
+                <a href="./book.html">
+                    Booking
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

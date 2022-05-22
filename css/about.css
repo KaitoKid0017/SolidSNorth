@@ -1,0 +1,127 @@
+/* Fonts */ 
+
+@font-face {
+    font-family: ASO;
+    src: url(../fonts/AlfaSlabOne.ttf);
+}
+  
+@font-face {
+    font-family: Telegraf;
+    src: url(../fonts/Telegraf.otf);
+}
+
+@font-face {
+    font-family: Telegraf-L;
+    src: url(../fonts/Telegraf-L.otf);
+}
+
+/* Style */ 
+body{
+    background:#2C2D2F;
+    padding-bottom:0vh;
+}
+
+main {
+    width:100%;
+    padding-top: 11vh;
+    margin-bottom:0;
+}
+
+.main img {
+    height:auto;
+    width:100%;
+}
+
+.one, .two{
+    width: 100%;
+    margin-top: -1vh;
+    display:inline-block;
+    position: relative;
+}
+
+.one {
+    background: #D9D9D9;
+}
+
+.two {
+    background: #F4F4F4;
+}
+
+.content {
+    width: 80%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:2vh 0vh;
+}
+
+.place {
+    text-align: center;
+    font-family: ASO;
+    font-size: 8vh;
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom:1vh;
+}
+
+.place p1 {
+    color: #FC600A;
+}
+
+.place p2 {
+    color: #2C2D2F;
+    padding-left: 1%;
+}
+
+.contentRuler {
+    width: 95%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #2C2D2F;
+    opacity: 50%;
+}
+
+.info-box {
+    font-family: Telegraf-L;
+    font-size: 3.5vh;
+    color: #2C2D2F;
+    text-align: justify;
+    line-height: 5vh;
+    text-decoration: none;
+    padding: 2vh 3vh;
+}
+
+/* Responsive Bootstrapping */ 
+
+@media screen and (max-width: 800px) {
+    /* Style */
+    
+    .main {
+        padding-top:11vw;
+    }
+
+    .main.responsive {
+        padding-top:0vh;
+    }
+
+    .content {
+        width: 95%;
+        padding:2vw 0vw;
+    }
+    
+    .place {
+        font-size: 5vw;
+        padding-bottom:1vw;
+    }
+
+    .info-box {
+        font-size: 3vw;
+        line-height: 4.5vw;
+        padding: 1vw 3vw;
+    }
+}
+
+
+
+

@@ -1,0 +1,255 @@
+/* Fonts */ 
+
+@font-face {
+    font-family: ASO;
+    src: url(../fonts/AlfaSlabOne.ttf);
+}
+  
+@font-face {
+    font-family: Telegraf;
+    src: url(../fonts/Telegraf.otf);
+}
+
+@font-face {
+    font-family: Telegraf-L;
+    src: url(../fonts/Telegraf-L.otf);
+}
+
+/* Style */ 
+.footer {
+    width: 100%;
+    display: inline-block;
+    background: #2C2D2F;
+    margin-top:-1vh;
+    padding: 1vh 0vh;
+}
+
+.footSlider, .footInfo, .footNav{
+    height: 37vh;
+    display: block;    
+    float:left;
+    margin-top: 2vh;
+}
+
+.footSlider{
+    display: inline-block;
+    width: 33%;
+    margin-left: 2.5%;
+    margin-right:1%;
+    padding-right: 2%;
+    border-right: 1px solid #d9d9d9;
+}
+
+.footSliderTitle {
+    width: 100%;
+    display: inline-block;
+}
+
+.footSliderTitle p1{
+    float: left;
+    font-family: ASO;
+    font-size: 3vh;
+    color: #FC600A;
+    padding-bottom: 1vh;
+}
+
+.footSliderTitle p2{
+    float: left;
+    font-family: ASO;
+    font-size: 3vh;
+    color: #D9D9D9;
+    padding-left: 1%;
+    padding-bottom: 1vh;
+}
+
+.footContainer{
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30vh;
+}
+
+.footInfo{
+    display: inline-block;
+    width: 40%;
+    margin-right:1%;
+    padding-right: 2%;
+    border-right: 1px solid #d9d9d9;
+}
+
+.footInfoTitle{
+    width: auto;
+    display: block;
+}
+
+.footInfoTitle p1{
+    display: block;
+    float: left;
+    font-family: ASO;
+    font-size: 3vh;
+    color: #FC600A;
+}
+
+.footInfoTitle p2{
+    display: block;
+    float: left;
+    font-family: ASO;
+    font-size: 3vh;
+    color: #D9D9D9;
+    padding-left: 1%;
+}
+
+.footContent {
+    width: 100%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footContent p {
+    font-family: Telegraf-L;
+    font-size: 2.5vh;
+    color: #D9D9D9;
+    text-align: justify;
+    line-height: 3vh;
+    text-decoration: none;
+    padding: 1vh 3vh;
+}
+
+.footerIcons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footerIcons img {
+    width: auto;
+    height: 5vh;
+}
+
+.copyright {
+    display: block;
+    width: 100%;
+    margin-top:auto;
+    margin-left: auto
+}
+
+.copyright p {
+    font-family: telegraf;
+    text-align:center;
+    font-size: 1.2vw;
+    padding: 1vh 0vh;
+    color: #D9D9D9;
+}
+
+.footNav{
+    width: 15%;
+    margin-right:2.5%;
+}
+
+.footNav a{
+    text-decoration:none;
+    color: #D9D9D9;
+    display: block;
+    font-family: Telegraf;
+    font-size: 2.2vh;
+    padding-left: 2vh;
+    line-height: 4vh;
+}
+
+.footNav a:hover{
+    color:#FC600A;
+    transition: 0.2s ease-in-out;
+}
+
+.footerRuler {
+    width: 85%;
+    display:none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    color: #D9D9D9; 
+}
+
+/* Responsive Bootsrapping */
+
+@media screen and (max-width: 800px) {
+    .footSlider, .footInfo, .footNav{  
+        display: inline-block;
+        float:none;
+        height:auto;
+        width: 90%;
+        margin-top: 2vh;
+        border-right: none;
+        margin-left:5%;
+        margin-bottom: 2vw;
+    }
+
+    .footContainer{
+        height: 50vw;
+    }
+
+    .footSliderTitle {
+        width: 77%;
+        margin-left: 11.5%;
+    }
+
+    .footInfoTitle{
+        width: 74%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .footSliderTitle p1, .footInfoTitle p1{
+        display: block;
+        font-size: 5vw;
+        padding-bottom: 1vw;
+    }
+    
+    .footSliderTitle p2, .footInfoTitle p2{
+        display: block;
+        font-size: 5vw;
+        padding-left: 1%;
+        padding-bottom: -100vw;
+    }
+
+    .footContent p {
+        font-family: Telegraf-L;
+        font-size: 3vw;
+        color: #D9D9D9;
+        text-align: justify;
+        line-height: 5.5vw;
+        text-decoration: none;
+        padding: 1vh 2vh;
+    }
+    
+    .footerIcons img {
+        width: auto;
+        height: 6vw;
+    }
+    
+    .copyright p {
+        font-family: Telegraf;
+        font-size: 3vw;
+        padding-top: 3vw;
+        padding-bottom: 1vh;
+        text-align: center;
+        color: #D9D9D9;
+    }
+
+    .footerRuler{
+        display: block;
+    }
+
+    .footNav{
+        text-align:center;
+    }
+
+    .footNav a{
+        padding-left:0;
+        font-size: 2.5vw;
+        line-height: 4vw;
+    }
+}

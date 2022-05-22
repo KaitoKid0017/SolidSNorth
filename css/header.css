@@ -1,0 +1,170 @@
+/* Fonts */ 
+
+@font-face {
+    font-family: ASO;
+    src: url(../fonts/AlfaSlabOne.ttf);
+}
+  
+@font-face {
+    font-family: Telegraf;
+    src: url(../fonts/Telegraf.otf);
+}
+
+/* Style */ 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 100%;
+}
+
+.topnav {
+    position: fixed;
+    width:100%;
+    background: #E6E6E6;
+    overflow: hidden;
+    z-index:9999;
+}
+
+.topnav a.title {
+    display: block;
+    text-decoration:none;
+    font-family: ASO;
+    font-size: 6vh;
+}
+
+.topnav a.title img {
+    float:left;
+    height: 7.5vh;
+    width:auto;
+    padding: 1.7vh 0.5vh;
+}
+
+.topnav a.title p1 {
+    float:left;
+    color:#2C2D2F;
+    padding: 1.7vh 0vh;
+}
+
+.topnav a.title p2 {
+    float:left;
+    color:#545454;
+    padding: 1.7vh 0vh;
+}
+
+.topnav a.title p3 {
+    float:left;
+    color:#FC600A;
+    padding: 1.7vh 0vh;
+}
+
+.topnav .navbtns-container{
+    float: right;
+}
+
+.topnav a.navbtns {
+    float: left;
+    text-align: center;
+    text-decoration:none;
+    color: #2c2c2c;
+    font-family: Telegraf;
+    font-size: 2vh;
+    padding: 4.8vh 1.8vh;
+}
+
+.topnav a.navbtns:hover {
+    color:#FC600A;
+    transition: 0.2s ease-in-out;
+}
+  
+.topnav .icon {
+    display: none;
+    float: right;
+    font-size:5vw;
+    padding: 3vw 2vw;
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+/* Responsive Bootstrapping */ 
+
+@media screen and (max-width: 800px) {
+    .topnav a.title p1, .topnav a.title p2, .topnav a.title p3{
+        font-size: 6.5vw;
+        padding: 1.7vw 0vw;
+    }
+    
+    .topnav a.title img {
+        height: 8vw;
+        padding: 1.7vw 0.5vw;
+    }
+    
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        display: block;
+    }
+
+    .topnav .navbtns-container {
+        float: none;
+    }
+
+    .topnav.responsive {
+        position: fixed;
+    }
+    
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size:5vw;
+        padding-top:3.3vw;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: flex;
+    }
+
+    .topnav.responsive a.navbtns {
+        justify-content: right;
+        font-size: 2.2vw;
+        padding: 3vw 4vw;
+        color: #2C2D2F;
+        background:#c9c9c9;
+    }
+
+    .topnav.responsive a.navbtns:hover, .topnav.responsive a.navbtns:focus {
+        background:#181818;
+        color: #FC600A;
+        transition: 0.2s ease-in-out;
+    }
+}
+
+/* Scrollbar */ 
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+::-webkit-scrollbar-thumb:focus {
+    background: #555; 
+}
+
